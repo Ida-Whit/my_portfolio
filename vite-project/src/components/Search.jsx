@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
+import Results from './Results';
 
-// Import search method
+// Import our search method
 import search from '../utils/API'
 
 const SearchResultContainer = () => {
@@ -12,16 +13,16 @@ const SearchResultContainer = () => {
     setResults(data.data);
   };
 
-//   useEffect(() => {
-//     searchGiphy('kittens');
-//   }, []);
+  useEffect(() => {
+    searchGitHub('Ida-Whit');
+  }, []);
 
-//   return (
-//     <div>
-//       {/* Pass our results to the ResultsList component to map over */}
-//       <ResultList results={results} />
-//     </div>
-//   );
+  return (
+    <div>
+      {/* Pass our results to the Portfolio component to map over */}
+      <Results results={results} />
+    </div>
+  );
 };
 
 export default SearchResultContainer;
