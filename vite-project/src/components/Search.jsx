@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Results from './Results';
+import ResultList from './Results';
 import search from '../utils/API';
 
 
@@ -18,13 +18,13 @@ const SearchResultContainer = () => {
   };
 
   useEffect(() => {
-    searchGitHub('Ida-Whit');
+    searchGitHub();
  }, []);
 
   return (
     <div>
       {/* Pass our results to the Portfolio component to map over */}
-      {results && results.length > 0 && < Results results ={results} />}
+      {results && results.length > 0 && < ResultList results ={results} />}
     </div>
   );
 };
