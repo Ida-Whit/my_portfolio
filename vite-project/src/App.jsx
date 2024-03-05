@@ -1,8 +1,18 @@
+import { Outlet } from 'react-router-dom';
 import './App.css'
+import NavTabs from './components/NavTabs'
+
 
 function App() {
-
-  return 
+  return (
+    <>
+    <NavTabs />
+    <main className='mx-3'>
+      <Outlet />
+    </main>
+  </>
+  );
 }
 
-export default App
+export default App;
+
