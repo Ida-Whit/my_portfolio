@@ -8,8 +8,16 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/"
-          //Portfolio page
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/"
+          //Portfolio page
+          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
         </Link>

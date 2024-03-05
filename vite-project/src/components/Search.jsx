@@ -1,24 +1,25 @@
 import { useState, useEffect } from 'react';
 import Results from './Results';
+import search from '../utils/API';
 
-// Import our search method
-import search from '../utils/API'
 
 const SearchResultContainer = () => {
   const [results, setResults] = useState([]);
 
   // Method to get search results and set state
   const searchGitHub = async (query) => {
-    const { data } = await search(query);
-    setResults(data.data);
-    console.log(data);
+    try {
+      const { data } = await search.search(query);
+      setResults(data);
+      console.log(data);
+    } catch (error) {
+      console.error('Error Fetching Data:', error);
+    }
   };
 
   useEffect(() => {
-    if (results.length === 0) {
     searchGitHub('Ida-Whit');
-  }
- }, [results]);
+ }, []);
 
   return (
     <div>
