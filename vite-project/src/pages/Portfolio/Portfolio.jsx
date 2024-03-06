@@ -2,52 +2,58 @@ function Portfolio() {
   return (
       <div>
         <h1>Portfolio</h1>
-        <div className="card" style="width: 18rem;">
-        <img src="../" className="card-img-top" alt="..."></img>
+        <div className="card">
+        <img src="/images/notetaker.png" className="card-img-top" alt="Text Editor Application Homepage"></img>
         <div className="card-body">
-          <h5 className="card-title">Notetaker Application</h5>
-          <p className="card-text">Notetaker Application</p>
-          <a href="#" className="btn btn-primary">Go to Repository</a>
+          <h5 className="card-title">Text Editor Application</h5>
+          <p className="card-text">Text Editor Application</p>
+          <a href="https://github.com/Ida-Whit/text_editor" className="btn btn-primary">Go to Repository</a>
+          <a href="https://text-editor-epl0.onrender.com/" className="btn btn-primary">Go to Deployed Application</a>
         </div>
       </div>
-      <div className="card" style="width: 18rem;">
-        <img src="../" className="card-img-top" alt="..."></img>
+      <div className="card">
+        <img src="../../utils/images/plants.png" className="card-img-top" alt="Wet My Plants Homepage"></img>
         <div className="card-body">
           <h5 className="card-title">Wet My Plants</h5>
           <p className="card-text">Wet My Plants</p>
-          <a href="#" className="btn btn-primary">Go to Repository</a>
+          <a href="https://github.com/CRNaro/group-project-02" className="btn btn-primary">Go to Repository</a>
+          <a href="https://thawing-dawn-01968-1886d8c04121.herokuapp.com/" className="btn btn-primary">Go to Deployed Application</a>
         </div>
       </div>
-      <div className="card" style="width: 18rem;">
-        <img src="../" className="card-img-top" alt="..."></img>
+      <div className="card">
+        <img src="../utils/images/scheduler.png" className="card-img-top" alt="Workday Scheduler Homepage"></img>
         <div className="card-body">
           <h5 className="card-title">Workday Scheduler</h5>
           <p className="card-text">Workday Scheduler</p>
-          <a href="#" className="btn btn-primary">Go to Repository</a>
+          <a href="https://github.com/Ida-Whit/Work-Day-Scheduler" className="btn btn-primary">Go to Repository</a>
+          <a href="https://ida-whit.github.io/Work-Day-Scheduler/" className="btn btn-primary">Go to Deployed Application</a>
         </div>
       </div>
-      <div className="card" style="width: 18rem;">
-        <img src="../" className="card-img-top" alt="..."></img>
+      <div className="card">
+        <img src="../utils/images/weather.png" className="card-img-top" alt="Weather Application Homepage"></img>
         <div className="card-body">
           <h5 className="card-title">Weather Application</h5>
           <p className="card-text">Weather Application</p>
-          <a href="#" className="btn btn-primary">Go to Repository</a>
+          <a href="https://github.com/Ida-Whit/Weather-Application" className="btn btn-primary">Go to Repository</a>
+          <a href="https://ida-whit.github.io/Weather-Application/" className="btn btn-primary">Go to Deployed Application</a>
         </div>
       </div>
-      <div className="card" style="width: 18rem;">
-        <img src="../" className="card-img-top" alt="..."></img>
+      <div className="card">
+        <img src="../utils/images/" className="card-img-top" alt="..."></img>
         <div className="card-body">
           <h5 className="card-title">Project 5</h5>
           <p className="card-text">Project 5</p>
           <a href="#" className="btn btn-primary">Go to Repository</a>
+          <a href="#" className="btn btn-primary">Go to Deployed Application</a>
         </div>
       </div>
-      <div className="card" style="width: 18rem;">
-        <img src="../" className="card-img-top" alt="..."></img>
+      <div className="card">
+        <img src="../utils/images/" className="card-img-top" alt="..."></img>
         <div className="card-body">
           <h5 className="card-title">Project 6</h5>
           <p className="card-text">Project 6</p>
           <a href="#" className="btn btn-primary">Go to Repository</a>
+          <a href="#" className="btn btn-primary">Go to Deployed Application</a>
         </div>
       </div>
     </div>
