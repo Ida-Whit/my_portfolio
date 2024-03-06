@@ -1,12 +1,7 @@
-// import SearchResultsContainer from '../../components/Search';
-
 function Portfolio() {  
   return (
       <div>
         <h1>Portfolio</h1>
-        {/* <p>
-            <SearchResultsContainer />
-        </p> */}
         <div className="card" style="width: 18rem;">
         <img src="../" className="card-img-top" alt="..."></img>
         <div className="card-body">
