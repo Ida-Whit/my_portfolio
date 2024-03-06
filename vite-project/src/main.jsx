@@ -7,7 +7,7 @@ import About from './pages/About/About.jsx'
 import Contact from './pages/Contact/Contact.jsx'
 import Portfolio from './pages/Portfolio/Portfolio.jsx'
 import Resume from './pages/Portfolio/Resume.jsx'
-import Home from './pages/Home/Home.jsx'
+
 
 //Define accessible routes
 const router = createBrowserRouter([
@@ -18,15 +18,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <About />,
       },
       {
         path: '/Portfolio',
         element: <Portfolio />
-      },
-      {
-        path: '/About',
-        element: <About />,
       },
       {
         path: '/Contact',
