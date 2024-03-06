@@ -11,7 +11,7 @@ const SearchResultContainer = () => {
     try {
       const { data } = await search.search(query);
       setResults(data);
-      console.log(data);
+      console.log(data[0].html_url);
     } catch (error) {
       console.error('Error Fetching Data:', error);
     }

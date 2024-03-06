@@ -1,9 +1,17 @@
 import { Link, useLocation } from 'react-router-dom';
 
-function NavTabs() {
-  const currentPage = useLocation().pathname;
 
+export default function Header() {
+  const currentPage = useLocation().pathname;  
   return (
+      <div>
+        <nav className="navbar bg-body-tertiary">
+          <div className="container-fluid">
+            <a className="navbar-brand">Ida Whitcomb</a>
+          </div>
+        </nav>
+<nav>
+  <div className='navbar-text'>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
@@ -46,7 +54,8 @@ function NavTabs() {
         </Link>
       </li>
     </ul>
-  );
-}
-
-export default NavTabs;
+          </div>
+        </nav>     
+      </div>
+    )
+  }
