@@ -47,9 +47,17 @@ export default function Contact() {
     setShowModal(false);
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
     return (
     <div>
         <h1>Contact Me</h1>
+    <form onSubmit={handleSubmit}>
       <div className="input-group mb-3">
         <span className="input-group-text" id="basic-addon1">Name</span>
         <input type="text" className="form-control" placeholder="Name" aria-label="Name" value={name} onChange={handleNameChange} onBlur={handleBlur} name="name"></input>
@@ -62,6 +70,10 @@ export default function Contact() {
         <span className="input-group-text">Message</span>
         <textarea className="form-control" aria-label="Message" value={message} onChange={(event) => setMessage (event.target.value)}></textarea>
       </div>
+      <div className="col-12">
+        <button className="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
       {showModal && (
         <div className="modal">
           <div className="modal-dialog">

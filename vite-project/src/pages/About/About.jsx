@@ -4,7 +4,7 @@ export default function About() {
     return (
       <div>
         <h1>About Page</h1>
-        <img src={picture} alt="Picture of me" />
+        <img src={picture} style={{ width: '50%', height: '50%' }} alt="Picture of me" />
         <p>
           Hello and thank you for visiting my portfolio site! I am excited to show you everything I have been working so hard on.
           I graduated from University of New Hampshire with a degree in Environmental Science. Since graduating, I worked at a hazardous waste company, responsible for scheduling the transportation of waste to proper disposal facilities.
