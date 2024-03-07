@@ -1,9 +1,14 @@
+import notetaker from '../../utils/images/notetaker.png'
+import plants from '../../utils/images/plants.png'
+import scheduler from '../../utils/images/scheduler.png'
+import weather from '../../utils/images/weather.png'
+
 function Portfolio() {  
   return (
       <div>
         <h1>Portfolio</h1>
         <div className="card">
-        <img src="/images/notetaker.png" className="card-img-top" alt="Text Editor Application Homepage"></img>
+        <img src={notetaker} className="card-img-top" alt="Text Editor Application Homepage"></img>
         <div className="card-body">
           <h5 className="card-title">Text Editor Application</h5>
           <p className="card-text">Text Editor Application</p>
@@ -12,7 +17,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="card">
-        <img src="../../utils/images/plants.png" className="card-img-top" alt="Wet My Plants Homepage"></img>
+        <img src={plants} className="card-img-top" alt="Wet My Plants Homepage"></img>
         <div className="card-body">
           <h5 className="card-title">Wet My Plants</h5>
           <p className="card-text">Wet My Plants</p>
@@ -21,7 +26,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="card">
-        <img src="../utils/images/scheduler.png" className="card-img-top" alt="Workday Scheduler Homepage"></img>
+        <img src={scheduler} className="card-img-top" alt="Workday Scheduler Homepage"></img>
         <div className="card-body">
           <h5 className="card-title">Workday Scheduler</h5>
           <p className="card-text">Workday Scheduler</p>
@@ -30,7 +35,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="card">
-        <img src="../utils/images/weather.png" className="card-img-top" alt="Weather Application Homepage"></img>
+        <img src={weather} className="card-img-top" alt="Weather Application Homepage"></img>
         <div className="card-body">
           <h5 className="card-title">Weather Application</h5>
           <p className="card-text">Weather Application</p>
