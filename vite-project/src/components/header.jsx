@@ -7,7 +7,7 @@ export default function Header() {
       <div>
         <nav className="navbar">
           <div className="container-fluid">
-            <a className="navbar-brand">Ida Whitcomb</a>
+            <a className="name">Ida Whitcomb</a>
           </div>
         </nav>
 <nav>
