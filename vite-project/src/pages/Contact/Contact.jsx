@@ -71,7 +71,7 @@ export default function Contact() {
         <textarea className="form-control" aria-label="Message" value={message} onChange={(event) => setMessage (event.target.value)}></textarea>
       </div>
       <div className="col-12">
-        <button className="btn btn-primary" type="submit">Submit form</button>
+        <button className="btn" type="submit">Submit form</button>
       </div>
     </form>
       {showModal && (
@@ -86,6 +86,10 @@ export default function Contact() {
           </div>
         </div>
       )}
+    <h2 className="contact">My Contact Information</h2>
+        <h3>Ida Whitcomb</h3>
+        <h3>Email: idawhitcomb@gmail.com</h3>
+        <h5>Access my GitHub and LinkedIn via the links at the bottom of this page</h5>
     </div>
     );
   }

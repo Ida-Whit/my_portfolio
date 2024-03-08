@@ -1,0 +1,25 @@
+
+.card {
+    background-color: rgb(112, 160, 175);
+}
+
+.btn:hover {
+    background-color: rgb(112, 105, 147)
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  cursor: pointer;
+  margin: 2%;
+}
+
+.title {
+    margin-bottom: 5%;
+}
+
+.text{
+    margin-top: 3%;
+}
+

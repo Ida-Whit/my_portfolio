@@ -1,0 +1,14 @@
+.navbar{
+    background-color: rgb(160, 193, 185);
+}
+
+.btn:hover {
+    background-color: rgb(112, 105, 147)
+}
+
+.name{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+

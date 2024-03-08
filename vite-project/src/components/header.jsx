@@ -1,11 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
-
+import './header_footer.css'
 
 export default function Header() {
   const currentPage = useLocation().pathname;  
   return (
       <div>
-        <nav className="navbar bg-body-tertiary">
+        <nav className="navbar">
           <div className="container-fluid">
             <a className="navbar-brand">Ida Whitcomb</a>
           </div>
@@ -16,7 +16,7 @@ export default function Header() {
       <li className="nav-item">
         <Link
           to="/"
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
           About Me
         </Link>
