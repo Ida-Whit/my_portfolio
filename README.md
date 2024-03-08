@@ -5,7 +5,7 @@ A portfolio is an important application that any developer should have. Potentia
 
 ## Visuals
 <img src='./vite-project/src/utils/images/homepage.png'>
-Deployed Application
+Deployed Application: https://snazzy-pasca-d7a0ee.netlify.app
 
 ## Installation
 This program is already deployed on Netlify. Anyone who wishes to view it need only follow the link listed above.
